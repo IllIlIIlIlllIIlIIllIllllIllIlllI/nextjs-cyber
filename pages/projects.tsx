@@ -7,7 +7,7 @@ import { PageSEO } from '@/components/SEO';
 export default function Projects() {
   const { title, headerTitle } = siteMetadata;
 
-  const description = 'My open-source side projects and stuff that I built with my colleagues at work';
+  const description = 'My open source projects as I am not allowed to share most of my professional work projects';
 
   const workProjects = projectsData.filter(({ type }) => type === 'work');
   const sideProjects = projectsData.filter(({ type }) => type === 'self');
