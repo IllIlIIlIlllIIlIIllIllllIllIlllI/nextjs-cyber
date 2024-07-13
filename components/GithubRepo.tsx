@@ -25,23 +25,13 @@ export default function GithubRepo({ repo }: { repo: GithubRepository }) {
       <div className="flex items-center space-x-2">
         {repo.homepageUrl && (
           <>
-            <a
-              href={repo.homepageUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center"
-            >
+            <a href={repo.homepageUrl} target="_blank" rel="noreferrer" className="flex items-center">
               <ExternalLink size={20} strokeWidth={1} />
             </a>
             <span className="text-gray-400 dark:text-gray-500">|</span>
           </>
         )}
-        <a
-          href={repo.url}
-          target="_blank"
-          rel="noreferrer"
-          className="flex items-center space-x-1"
-        >
+        <a href={repo.url} target="_blank" rel="noreferrer" className="flex items-center space-x-1">
           <Github size={20} strokeWidth={1} />
         </a>
       </div>

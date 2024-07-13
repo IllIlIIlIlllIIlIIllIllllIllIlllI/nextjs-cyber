@@ -49,11 +49,9 @@ const Avatar = () => {
   }, [onMouseLeave, onMouseMove]);
 
   return (
-    <div
-      className="z-10 scale-100 transition-all duration-200 ease-out hover:z-50 hover:scale-[1.02]"
-    >
-      <div style={style} className="overflow-hidden  transition-all duration-200 ease-out rotate">
-        <Image src={'/static/images/vinyl.jpg'} alt="avatar" width={430} height={430} className='ellipse'/>
+    <div className="z-10 scale-100 transition-all duration-200 ease-out hover:z-50 hover:scale-[1.02]">
+      <div style={style} className="rotate  overflow-hidden transition-all duration-200 ease-out">
+        <Image src={'/static/images/vinyl.jpg'} alt="avatar" width={430} height={430} className="ellipse" />
       </div>
     </div>
   );

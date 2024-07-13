@@ -24,7 +24,7 @@ export default function AuthorLayout({ children, content }: Props) {
       <PageSEO title={`About - ${headerTitle} - ${title}`} description={description} />
 
       <div className="about">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5 dark:cyber-h light:cyber-h">
+        <div className="dark:cyber-h light:cyber-h space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             About
           </h1>
@@ -35,7 +35,13 @@ export default function AuthorLayout({ children, content }: Props) {
 
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="flex flex-col items-center space-x-2 pt-8 sm:pt-28">
-            <Image src={'/static/images/vinyl-clean.jpg'} alt="avatar" width={192} height={192} className="h-48 w-48 rounded-full" />
+            <Image
+              src={'/static/images/vinyl-clean.jpg'}
+              alt="avatar"
+              width={192}
+              height={192}
+              className="h-48 w-48 rounded-full"
+            />
 
             <h3 className="pb-2 pt-4 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>

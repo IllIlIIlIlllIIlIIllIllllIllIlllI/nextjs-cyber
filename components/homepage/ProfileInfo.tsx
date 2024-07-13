@@ -11,9 +11,7 @@ const ProfileCardInfo = () => {
       <div className="mb-2 mt-2 space-y-3">
         <div className="flex items-center">
           <Briefcase size={20} strokeWidth={1} />
-          <p className="px-2">
-            Senior Software Engineer @{' '}
-          </p>
+          <p className="px-2">Senior Software Engineer @ </p>
         </div>
         <div className="flex items-center">
           <MapPin name="map-pin" size={20} strokeWidth={1} />

@@ -74,27 +74,33 @@ html.lightbox-loading * {
 
 /* START: CSS popular tags */
 .popular-tags .javascript {
-  --bg: var(--red); background-color: var(--red); 
+  --bg: var(--red);
+  background-color: var(--red);
 }
 
 .popular-tags .typescript {
-  --bg: var(--cyan); background-color: var(--cyan); 
+  --bg: var(--cyan);
+  background-color: var(--cyan);
 }
 
 .popular-tags .nestjs {
-  --bg: var(--purple); background-color: var(--purple); 
+  --bg: var(--purple);
+  background-color: var(--purple);
 }
 
 .popular-tags .react {
-  --bg: var(--blue); background-color: var(--blue); 
+  --bg: var(--blue);
+  background-color: var(--blue);
 }
 
 .popular-tags .database {
-  --bg: var(--green); background-color: var(--green); 
+  --bg: var(--green);
+  background-color: var(--green);
 }
 
 .popular-tags .devops {
-  --bg: var(--dark); background-color: var(--dark); 
+  --bg: var(--dark);
+  background-color: var(--dark);
 }
 /* END: CSS popular tags */
 
@@ -104,7 +110,7 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-.ellipse{
+.ellipse {
   border-radius: 90%;
   border-color: black;
   border-width: 3px;

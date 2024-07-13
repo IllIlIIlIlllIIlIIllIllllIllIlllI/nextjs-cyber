@@ -4,7 +4,7 @@ import '@/css/resume.css';
 import '@/css/about.css';
 import '@/css/prism.css';
 import 'katex/dist/katex.css';
-import '@/css/cyberpunk.css'
+import '@/css/cyberpunk.css';
 import React from 'react';
 import { ThemeProvider } from 'next-themes';
 import type { AppProps } from 'next/app';

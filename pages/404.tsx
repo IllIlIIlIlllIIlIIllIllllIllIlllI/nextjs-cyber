@@ -6,7 +6,7 @@ export default function FourZeroFour() {
   return (
     <>
       <PageSEO title="Page Not Found" description="Sorry we couldn't find this page :(" />
-      <div className="pb-8 pt-6 md:space-y-5 flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6">
+      <div className="flex flex-col items-start justify-start pb-8 pt-6 md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6 md:space-y-5">
         <div className="space-x-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-6xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 md:border-r-2 md:px-6 md:text-8xl md:leading-14">
             <Image src={'/static/images/soyjack404.jpg'} alt="404" width={300} height={300} />

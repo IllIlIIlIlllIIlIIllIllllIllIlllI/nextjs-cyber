@@ -2,7 +2,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 
 const siteMetadata = {
-  title: "Library",
+  title: 'Library',
   author: 'Paul',
   fullName: 'Paul Karpavicius',
   headerTitle: "Paul's Blog",
@@ -21,7 +21,7 @@ const siteMetadata = {
   locale: 'en-US',
   newsletter: {
     provider: 'buttondown',
-  }
+  },
 };
 
 module.exports = siteMetadata;

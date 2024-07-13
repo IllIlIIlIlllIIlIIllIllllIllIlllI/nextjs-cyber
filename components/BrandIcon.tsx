@@ -38,7 +38,7 @@ export const BrandIconsMap = {
   NestJS,
   Docker,
   Postgres,
-  Mongodb
+  Mongodb,
 };
 
 export type BrandIconType = keyof typeof BrandIconsMap;
