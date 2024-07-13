@@ -32,7 +32,7 @@ export default function PostLayout({ content, next, prev, children }: LayoutProp
       <article>
         <div>
           <header>
-            <div className="dark:border-gray space-y-1 border-b border-gray-200 pb-10">
+            <div className="space-y-2 pb-8 pt-6 md:space-y-5">
               <div className="space-y-6">
                 <PageTitle>{title}</PageTitle>
                 <BlogTags tags={tags} />

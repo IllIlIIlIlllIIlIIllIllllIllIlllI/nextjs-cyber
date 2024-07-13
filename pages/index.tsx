@@ -65,7 +65,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <BlogLinks />
             <SpotifyNowPlaying />
             <p className="flex">
-              <span className="mr-2">Happy reading</span>
+              <span className="mr-2">I hope you will find this site helpful</span>
               <Twemoji emoji="clinking-beer-mugs" />
             </p>
           </div>
@@ -130,18 +130,6 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           })}
         </ul>
       </div>
-      {posts.length > MAX_DISPLAY && (
-        <div className="flex justify-end text-base font-medium leading-6">
-          <Link href="/blog" className="text-primary hover:text-sky-600 dark:hover:text-sky-400" aria-label="All posts">
-            All Posts &rarr;
-          </Link>
-        </div>
-      )}
-      {/* {siteMetadata.newsletter.provider && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
     </div>
   );
 }

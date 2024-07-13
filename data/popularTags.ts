@@ -21,16 +21,16 @@ const popularTags: PopularTag[] = [
     title: 'Typescript',
   },
   {
-    href: '/tags/nestjs',
-    iconType: 'NestJS',
-    slug: 'nestjs',
-    title: 'NestJS',
-  },
-  {
     href: '/tags/react',
     iconType: 'React',
     slug: 'react',
     title: 'React',
+  },
+  {
+    href: '/tags/nestjs',
+    iconType: 'NestJS',
+    slug: 'nestjs',
+    title: 'NestJS',
   },
   {
     href: '/tags/database',
