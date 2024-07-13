@@ -1,6 +1,6 @@
 # Build BASE
 FROM node:18-alpine as BASE
-LABEL author="karhdo <karhdo.trong@gmail.com>"
+LABEL author="Paul <karpavichpaul@gmail.com>"
 
 WORKDIR /app
 COPY package.json yarn.lock ./
@@ -9,8 +9,8 @@ RUN apk add --no-cache git \
     && yarn cache clean
 
 # Build Image
-FROM karhdo/node:18-alpine AS BUILD
-LABEL author="karhdo <karhdo.trong@gmail.com>"
+FROM paul/node:18-alpine AS BUILD
+LABEL author="Paul <karpavichpaul@gmail.com>"
 
 WORKDIR /app
 COPY --from=BASE /app/node_modules ./node_modules
@@ -25,7 +25,7 @@ RUN apk add --no-cache git curl \
 
 # Build production
 FROM node:18-alpine AS PRODUCTION
-LABEL author="karhdo <karhdo.trong@gmail.com>"
+LABEL author="Paul <karpavichpaul@gmail.com>"
 
 WORKDIR /app
 
