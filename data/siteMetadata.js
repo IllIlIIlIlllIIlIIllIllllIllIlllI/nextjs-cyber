@@ -17,10 +17,8 @@ const siteMetadata = {
   github: 'https://github.com/IllIlIIlIlllIIlIIllIllllIllIlllI',
   linkedin: 'https://www.linkedin.com/in/karpavicius',
   youtube: 'https://youtube.com',
+  socialBanner: '/static/images/blog-screenshot.png',
   locale: 'en-US',
-  analytics: {
-    umamiWebsiteId: '7b7953a7-de2e-4e30-9a29-1a4aee05c627',
-  },
   newsletter: {
     provider: 'buttondown',
   }

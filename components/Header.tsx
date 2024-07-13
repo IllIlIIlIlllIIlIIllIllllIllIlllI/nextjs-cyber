@@ -35,7 +35,6 @@ const Header = () => {
                     ? 'bg-gray-200 dark:bg-primary'
                     : 'hover:bg-gray-200 dark:hover:bg-primary'
                 )}
-                data-umami-event={`nav-${link.href.replace('/', '')}`}
               >
                 {link.title}
               </Link>

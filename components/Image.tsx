@@ -31,7 +31,7 @@ const Image = ({ shouldOpenLightbox = true, ...rest }: ImageProps) => {
 
   return (
     <>
-      <div className={className} data-umami-event={isThumb ? 'view-post-thumbnail' : 'view-image-in-lightbox'}>
+      <div className={className}>
         <NextImage {...rest} blurDataURL={blurDataURL} onClick={handleOpenLightbox} />
       </div>
       {openLightbox && <ImageLightbox closeLightbox={() => setOpenLightbox(false)} src={rest.src} />}
