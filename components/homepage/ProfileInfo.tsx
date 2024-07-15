@@ -1,5 +1,4 @@
 import siteMetadata from '@/data/siteMetadata';
-import Twemoji from '@/components/Twemoji';
 
 import { Briefcase, MapPin, Mail, Linkedin, Github, Facebook } from 'lucide-react';
 
@@ -16,7 +15,7 @@ const ProfileCardInfo = () => {
         <div className="flex items-center">
           <MapPin name="map-pin" size={20} strokeWidth={1} />
           <p className="px-2">
-            Paul Karpavicius, <Twemoji emoji="viet-nam-vietnam-flag" />
+            Paul Karpavicius, 🇪🇺
           </p>
         </div>
         <div className="flex items-center">

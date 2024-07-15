@@ -111,6 +111,10 @@ body {
   top: -0.2em;
 }
 
+.emoji-size{
+  font-size: 1.5em;
+}
+
 .cyberpunk-font .p,
 .cyberpunk-font-og .p {
   font-style: normal;

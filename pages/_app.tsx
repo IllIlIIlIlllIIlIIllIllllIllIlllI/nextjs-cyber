@@ -1,5 +1,4 @@
 import '@/css/tailwind.css';
-import '@/css/twemoji.css';
 import '@/css/resume.css';
 import '@/css/about.css';
 import '@/css/prism.css';

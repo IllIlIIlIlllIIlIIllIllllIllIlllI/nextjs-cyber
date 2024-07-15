@@ -12,7 +12,6 @@ import siteMetadata from '@/data/siteMetadata';
 
 import Tag from '@/components/Tag';
 import Link from '@/components/Link';
-import Twemoji from '@/components/Twemoji';
 import { PageSEO } from '@/components/SEO';
 import Image from '@/components/Image';
 import Greeting from '@/components/homepage/Greeting';
@@ -65,8 +64,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             <BlogLinks />
             <SpotifyNowPlaying />
             <p className="flex">
-              <span className="mr-2">I hope you will find this site helpful</span>
-              <Twemoji emoji="clinking-beer-mugs" />
+              <span className="mr-2">I hope you will find this site helpful 🕊️</span>
             </p>
           </div>
         </div>

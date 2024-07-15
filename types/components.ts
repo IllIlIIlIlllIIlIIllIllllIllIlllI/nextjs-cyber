@@ -7,12 +7,6 @@ export interface ImageProps extends NextImageProps {
   shouldOpenLightbox?: boolean;
 }
 
-export type TwemojiProps = {
-  emoji: string;
-  size?: string;
-  className?: string;
-};
-
 export type ProjectDataType = (typeof projectsData)[0];
 
 export interface ProjectCardProps {
