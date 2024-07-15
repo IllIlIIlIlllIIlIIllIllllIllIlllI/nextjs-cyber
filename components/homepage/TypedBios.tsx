@@ -19,11 +19,11 @@ const TypedBios = () => {
   return (
     <div className="Oxanium">
       <ul id="bios" className="Oxanium hidden">
-        <li>I like developing side projects and blogging about them.</li>
-        <li>Professionally I heavily work with AWS and backend services.</li>
-        <li>Currently focusing on Cyber Security and passing the OSCP.</li>
-        <li>My passion is solving complex problems with simple solutions.</li>
-        <li>I'm a huge fan of motorsports (Isle of Man TT) and Japanese culture</li>
+        <li>I like developing side projects and blogging.</li>
+        <li>Professionally I work a lot with Cloud (AWS).</li>
+        <li>Currently focusing on Cyber Security and OSCP.</li>
+        <li>I'm a huge fan of motorsports (Isle of Man TT)</li>
+        <li>I love Japanese 🇯🇵 and American culture 🇺🇸🦅</li>
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
     </div>
