@@ -14,9 +14,7 @@ const ProfileCardInfo = () => {
         </div>
         <div className="flex items-center">
           <MapPin name="map-pin" size={20} strokeWidth={1} />
-          <p className="px-2">
-            Paul Karpavicius, 🇪🇺
-          </p>
+          <p className="px-2">Paul Karpavicius, 🇪🇺</p>
         </div>
         <div className="flex items-center">
           <Mail size={20} strokeWidth={1} />

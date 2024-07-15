@@ -6,9 +6,7 @@ const Heading = () => {
   return (
     <h1 className="font-medium text-neutral-900 dark:text-neutral-200">
       I'm Paul - a software engineer by trade
-      <span className="absolute ml-1.5 inline-flex pt-[3px] emoji-size">
-      🇪🇺
-      </span>
+      <span className="emoji-size absolute ml-1.5 inline-flex pt-[3px]">🇪🇺</span>
     </h1>
   );
 };
