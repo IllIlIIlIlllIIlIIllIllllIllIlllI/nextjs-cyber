@@ -7,10 +7,6 @@ export interface ImageProps extends NextImageProps {
   shouldOpenLightbox?: boolean;
 }
 
-export interface ImageLightBoxProps extends Pick<NextImageProps, 'src'> {
-  closeLightbox: () => void;
-}
-
 export type TwemojiProps = {
   emoji: string;
   size?: string;

@@ -3,7 +3,6 @@ import NextImage from 'next/image';
 import clsx from 'clsx';
 
 import type { ImageProps } from '@/types/components';
-import ImageLightbox from '@/components/ImageLightbox';
 
 import { LOGO_IMAGE_PATH, BLUR_IMAGE_DATA_URL } from '@/constants/index';
 const Image = ({ shouldOpenLightbox = true, ...rest }: ImageProps) => {
@@ -32,9 +31,8 @@ const Image = ({ shouldOpenLightbox = true, ...rest }: ImageProps) => {
   return (
     <>
       <div className={className}>
-        <NextImage {...rest} blurDataURL={blurDataURL} onClick={handleOpenLightbox} />
+        <NextImage {...rest} blurDataURL={blurDataURL} />
       </div>
-      {openLightbox && <ImageLightbox closeLightbox={() => setOpenLightbox(false)} src={rest.src} />}
     </>
   );
 };
